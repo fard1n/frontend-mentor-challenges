@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;900&display=swap');
+
+
+html, body {
+
+    font-family: "Inter";
+    background-color: hsl(233, 47%, 7%);
+    line-height: 1.6;
+}
+
+p{
+    color: white;
+    font-size: 14px;
+    font-family: "Inter";
+    font-weight: 400;
+}
+
+.number-font{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.margin-tb-50{
+    margin: 50px 0 50px 0;
+}
+
+.margin-t-20{
+    margin-top: 20px;
+}
+
+.margin-t-40{
+    margin-top: 40px;
+}
+
+.margin-t-60{
+    margin-top: 60px;
+}
+
+.margin-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-top{
+    margin-top: 10px;
+}
+
+.min-width{
+    min-width: 80%;
+}
+
+.max-width-100{
+    max-width: 100px;
+}
+
+
+.max-width-80{
+    max-width: 80px;
+}
+
+.fit-content{
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+.heading{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.container{
+    max-width: 1000px;
+    height: 100vh;
+    margin: auto;
+}
+
+.center-vertical{
+    position: relative;
+    right: 0px;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card{
+    background-color:  hsl(244, 38%, 16%);   
+    border-radius: 12px;
+}
+
+.clear{
+    clear: both;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+c-float{
+    float: none;
+}
+
+.full{
+    width: 100%;
+}
+
+.half{
+    width: 50%;
+}
+
+.third{
+    width: 33.333333%;
+}
+
+.fourth{
+    width: 25%;
+}
+
+.margin--x{
+    margin: 10px;
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+.block{
+    display: block;
+}
+
+.soft-violet{
+    color: hsl(277, 64%, 61%);
+}
+
+.filter{
+    mix-blend-mode: hard-light;
+    opacity: .9;
+}
+
+.filter-color{
+    background-color: hsl(277, 64%, 61%);
+}
+
+
+@media only screen and (max-width:900px) {
+
+    .m-clear{
+        clear: both;
+    }
+    .container{
+        width: 80%;
+        margin: auto;
+        height: fit-content;
+        height: -moz-fit-content;
+    }
+
+    .center-vertical{
+        top: 0;
+        bottom: 0;
+        right: 0;
+        transform: translateY(0);
+    }
+
+    section{
+        width: 100%;
+    }
+
+    .m-full{
+        width: 100%;
+    }
+
+    .c-float{
+        float: none;
+    }
+
+    .min-width-fitcontent{
+        min-width: fit-content;
+        min-width: -moz-fit-content;
+    }
+
+    .m-center-text{
+        text-align: center;
+    }
+ 
+}
